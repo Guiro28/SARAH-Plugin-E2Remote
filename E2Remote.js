@@ -11,7 +11,7 @@ function sendCommande(command, cfg, reponse){
   var request = require('request');
   
   request({ 
-      'uri'     : 'http://'+config.tvip+"/web/"+data.commande,
+      'uri'     : 'http://'+config.user+":"+config.pass+"@"+config.tvip+"/web/"+data.commande,
       'method'  : 'post',
       'body'    : JSON.stringify({'key': command})           
     }, function (err, response, body){
