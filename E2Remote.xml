@@ -1,0 +1,368 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="E2Remote" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="E2Remote" scope="public">
+    <example>Sarah met TF1</example>
+    <tag>out.action=new Object(); </tag>
+    <item weight="2">Sarah</item>
+    <one-of>
+    
+    <item>éteint la télé <tag> out.action.commande="remotecontrol?command=116"; </tag></item>
+	<item>allume la télé <tag> out.action.commande="remotecontrol?command=116"; </tag></item>
+    <item>met la télé <tag> out.action.commande="remotecontrol?command=377"; </tag></item>
+    <item>met la radio <tag> out.action.commande="remotecontrol?command=385"; </tag></item>
+    <item>bouton rouge <tag> out.action.commande="remotecontrol?command=398"; </tag></item>
+    <item>bouton vert <tag> out.action.commande="remotecontrol?command=399"; </tag></item>
+    <item>bouton jaune <tag> out.action.commande="remotecontrol?command=400"; </tag></item>
+    <item>Bouton bleu <tag> out.action.commande="remotecontrol?command=401"; </tag></item>
+    <item>ouvre le dossier video <tag> out.action.commande="remotecontrol?command=393"; </tag></item>
+    <item>a droite <tag> out.action.commande="remotecontrol?command=106"; </tag></item>
+    <item>a gauche <tag> out.action.commande="remotecontrol?command=105"; </tag></item>
+    <item>monte <tag> out.action.commande="remotecontrol?command=103"; </tag></item>
+    <item>descend <tag> out.action.commande="remotecontrol?command=108"; </tag></item>
+    <item>ouvre le menu <tag> out.action.commande="remotecontrol?command=139"; </tag></item>
+    <item>sort du menu <tag> out.action.commande="remotecontrol?command=174"; </tag></item>
+    <item>affiche les info du film <tag> out.action.commande="remotecontrol?command=358"; </tag></item>
+    <item>Bouquet suivant <tag> out.action.commande="remotecontrol?command=402"; </tag></item>
+    <item>bouquet precedent <tag> out.action.commande="remotecontrol?command=403"; </tag></item>
+    <item>chaine suivante<tag> out.action.commande="remotecontrol?command=106"; </tag></item>
+    <item>chaine precedente <tag> out.action.commande="remotecontrol?command=105"; </tag></item>
+    <item>lecture <tag> out.action.commande="remotecontrol?command=207"; </tag></item>
+    <item>pause <tag> out.action.commande="remotecontrol?command=164"; </tag></item>
+    <item>stop <tag> out.action.commande="remotecontrol?command=128"; </tag></item>
+    <item>enregistre <tag> out.action.commande="remotecontrol?command=167"; </tag></item>
+    <item>valide la séléction <tag> out.action.commande="remotecontrol?command=352"; </tag></item>
+
+
+    <item>monte le volume <tag> out.action.commande="remotecontrol?command=115"; </tag></item>
+    <item>baisse le volume <tag> out.action.commande="remotecontrol?command=114"; </tag></item>
+    <item>monte le son <tag> out.action.commande="remotecontrol?command=115"; </tag></item>
+    <item>baisse le son <tag> out.action.commande="remotecontrol?command=114"; </tag></item>
+    <item>coupe le son <tag> out.action.commande="vol?set=mute"; </tag></item>
+    <item>remet le son <tag> out.action.commande="vol?set=mute"; </tag></item>
+    <item>met le volume a 1<tag> out.action.commande="vol?set=set1"; </tag></item>
+    <item>met le volume a 2<tag> out.action.commande="vol?set=set2"; </tag></item>
+    <item>met le volume a 3<tag> out.action.commande="vol?set=set3"; </tag></item>
+    <item>met le volume a 4<tag> out.action.commande="vol?set=set4"; </tag></item>
+    <item>met le volume a 5<tag> out.action.commande="vol?set=set5"; </tag></item>
+    <item>met le volume a 6<tag> out.action.commande="vol?set=set6"; </tag></item>
+    <item>met le volume a 7<tag> out.action.commande="vol?set=set7"; </tag></item>
+    <item>met le volume a 8<tag> out.action.commande="vol?set=set8"; </tag></item>
+    <item>met le volume a 9<tag> out.action.commande="vol?set=set9"; </tag></item>
+    <item>met le volume a 10<tag> out.action.commande="vol?set=set10"; </tag></item>
+    <item>met le volume a 11<tag> out.action.commande="vol?set=set11"; </tag></item>
+    <item>met le volume a 12<tag> out.action.commande="vol?set=set12"; </tag></item>
+    <item>met le volume a 13<tag> out.action.commande="vol?set=set13"; </tag></item>
+    <item>met le volume a 14<tag> out.action.commande="vol?set=set14"; </tag></item>
+    <item>met le volume a 15<tag> out.action.commande="vol?set=set15"; </tag></item>
+    <item>met le volume a 16<tag> out.action.commande="vol?set=set16"; </tag></item>
+    <item>met le volume a 17<tag> out.action.commande="vol?set=set17"; </tag></item>
+    <item>met le volume a 18<tag> out.action.commande="vol?set=set18"; </tag></item>
+    <item>met le volume a 19<tag> out.action.commande="vol?set=set19"; </tag></item>
+    <item>met le volume a 20<tag> out.action.commande="vol?set=set20"; </tag></item>
+    <item>met le volume a 21<tag> out.action.commande="vol?set=set21"; </tag></item>
+    <item>met le volume a 22<tag> out.action.commande="vol?set=set22"; </tag></item>
+    <item>met le volume a 23<tag> out.action.commande="vol?set=set23"; </tag></item>
+    <item>met le volume a 24<tag> out.action.commande="vol?set=set24"; </tag></item>
+    <item>met le volume a 25<tag> out.action.commande="vol?set=set25"; </tag></item>
+    <item>met le volume a 26<tag> out.action.commande="vol?set=set26"; </tag></item>
+    <item>met le volume a 27<tag> out.action.commande="vol?set=set27"; </tag></item>
+    <item>met le volume a 28<tag> out.action.commande="vol?set=set28"; </tag></item>
+    <item>met le volume a 29<tag> out.action.commande="vol?set=set29"; </tag></item>
+    <item>met le volume a 30<tag> out.action.commande="vol?set=set30"; </tag></item>
+    <item>met le volume a 31<tag> out.action.commande="vol?set=set31"; </tag></item>
+    <item>met le volume a 32<tag> out.action.commande="vol?set=set32"; </tag></item>
+    <item>met le volume a 33<tag> out.action.commande="vol?set=set33"; </tag></item>
+    <item>met le volume a 34<tag> out.action.commande="vol?set=set34"; </tag></item>
+    <item>met le volume a 35<tag> out.action.commande="vol?set=set35"; </tag></item>
+    <item>met le volume a 36<tag> out.action.commande="vol?set=set36"; </tag></item>
+    <item>met le volume a 37<tag> out.action.commande="vol?set=set37"; </tag></item>
+    <item>met le volume a 38<tag> out.action.commande="vol?set=set38"; </tag></item>
+    <item>met le volume a 39<tag> out.action.commande="vol?set=set39"; </tag></item>
+    <item>met le volume a 40<tag> out.action.commande="vol?set=set40"; </tag></item>
+    <item>met le volume a 41<tag> out.action.commande="vol?set=set41"; </tag></item>
+    <item>met le volume a 42<tag> out.action.commande="vol?set=set42"; </tag></item>
+    <item>met le volume a 43<tag> out.action.commande="vol?set=set43"; </tag></item>
+    <item>met le volume a 44<tag> out.action.commande="vol?set=set44"; </tag></item>
+    <item>met le volume a 45<tag> out.action.commande="vol?set=set45"; </tag></item>
+    <item>met le volume a 46<tag> out.action.commande="vol?set=set46"; </tag></item>
+    <item>met le volume a 47<tag> out.action.commande="vol?set=set47"; </tag></item>
+    <item>met le volume a 48<tag> out.action.commande="vol?set=set48"; </tag></item>
+    <item>met le volume a 49<tag> out.action.commande="vol?set=set49"; </tag></item>
+    <item>met le volume a 50<tag> out.action.commande="vol?set=set50"; </tag></item>
+    <item>met le volume a 51<tag> out.action.commande="vol?set=set51"; </tag></item>
+    <item>met le volume a 52<tag> out.action.commande="vol?set=set52"; </tag></item>
+    <item>met le volume a 53<tag> out.action.commande="vol?set=set53"; </tag></item>
+    <item>met le volume a 54<tag> out.action.commande="vol?set=set54"; </tag></item>
+    <item>met le volume a 55<tag> out.action.commande="vol?set=set55"; </tag></item>
+    <item>met le volume a 56<tag> out.action.commande="vol?set=set56"; </tag></item>
+    <item>met le volume a 57<tag> out.action.commande="vol?set=set57"; </tag></item>
+    <item>met le volume a 58<tag> out.action.commande="vol?set=set58"; </tag></item>
+    <item>met le volume a 59<tag> out.action.commande="vol?set=set59"; </tag></item>
+    <item>met le volume a 60<tag> out.action.commande="vol?set=set60"; </tag></item>
+    <item>met le volume a 61<tag> out.action.commande="vol?set=set61"; </tag></item>
+    <item>met le volume a 62<tag> out.action.commande="vol?set=set62"; </tag></item>
+    <item>met le volume a 63<tag> out.action.commande="vol?set=set63"; </tag></item>
+    <item>met le volume a 64<tag> out.action.commande="vol?set=set64"; </tag></item>
+    <item>met le volume a 65<tag> out.action.commande="vol?set=set65"; </tag></item>
+    <item>met le volume a 66<tag> out.action.commande="vol?set=set66"; </tag></item>
+    <item>met le volume a 67<tag> out.action.commande="vol?set=set67"; </tag></item>
+    <item>met le volume a 68<tag> out.action.commande="vol?set=set68"; </tag></item>
+    <item>met le volume a 69<tag> out.action.commande="vol?set=set69"; </tag></item>
+    <item>met le volume a 70<tag> out.action.commande="vol?set=set70"; </tag></item>
+    <item>met le volume a 71<tag> out.action.commande="vol?set=set71"; </tag></item>
+    <item>met le volume a 72<tag> out.action.commande="vol?set=set72"; </tag></item>
+    <item>met le volume a 73<tag> out.action.commande="vol?set=set73"; </tag></item>
+    <item>met le volume a 74<tag> out.action.commande="vol?set=set74"; </tag></item>
+    <item>met le volume a 75<tag> out.action.commande="vol?set=set75"; </tag></item>
+    <item>met le volume a 76<tag> out.action.commande="vol?set=set76"; </tag></item>
+    <item>met le volume a 77<tag> out.action.commande="vol?set=set77"; </tag></item>
+    <item>met le volume a 78<tag> out.action.commande="vol?set=set78"; </tag></item>
+    <item>met le volume a 79<tag> out.action.commande="vol?set=set79"; </tag></item>
+    <item>met le volume a 80<tag> out.action.commande="vol?set=set80"; </tag></item>
+    <item>met le volume a 81<tag> out.action.commande="vol?set=set81"; </tag></item>
+    <item>met le volume a 82<tag> out.action.commande="vol?set=set82"; </tag></item>
+    <item>met le volume a 83<tag> out.action.commande="vol?set=set83"; </tag></item>
+    <item>met le volume a 84<tag> out.action.commande="vol?set=set84"; </tag></item>
+    <item>met le volume a 85<tag> out.action.commande="vol?set=set85"; </tag></item>
+    <item>met le volume a 86<tag> out.action.commande="vol?set=set86"; </tag></item>
+    <item>met le volume a 87<tag> out.action.commande="vol?set=set87"; </tag></item>
+    <item>met le volume a 88<tag> out.action.commande="vol?set=set88"; </tag></item>
+    <item>met le volume a 89<tag> out.action.commande="vol?set=set89"; </tag></item>
+    <item>met le volume a 90<tag> out.action.commande="vol?set=set90"; </tag></item>
+    <item>met le volume a 91<tag> out.action.commande="vol?set=set91"; </tag></item>
+    <item>met le volume a 92<tag> out.action.commande="vol?set=set92"; </tag></item>
+    <item>met le volume a 93<tag> out.action.commande="vol?set=set93"; </tag></item>
+    <item>met le volume a 94<tag> out.action.commande="vol?set=set94"; </tag></item>
+    <item>met le volume a 95<tag> out.action.commande="vol?set=set95"; </tag></item>
+    <item>met le volume a 96<tag> out.action.commande="vol?set=set96"; </tag></item>
+    <item>met le volume a 97<tag> out.action.commande="vol?set=set97"; </tag></item>
+    <item>met le volume a 98<tag> out.action.commande="vol?set=set98"; </tag></item>
+    <item>met le volume a 99<tag> out.action.commande="vol?set=set99"; </tag></item>
+    <item>met le volume a 100<tag> out.action.commande="vol?set=set100"; </tag></item>	
+ 	
+	<item>un <tag> out.action.commande="remotecontrol?command=2"; </tag></item>    
+    <item>deux <tag> out.action.commande="remotecontrol?command=3"; </tag></item>
+    <item>trois <tag> out.action.commande="remotecontrol?command=4"; </tag></item>
+    <item>quatre <tag> out.action.commande="remotecontrol?command=5"; </tag></item>
+    <item>cinq <tag> out.action.commande="remotecontrol?command=6"; </tag></item>
+    <item>six <tag> out.action.commande="remotecontrol?command=7"; </tag></item>
+    <item>sept <tag> out.action.commande="remotecontrol?command=8"; </tag></item>
+    <item>huit <tag> out.action.commande="remotecontrol?command=9"; </tag></item>
+    <item>neuf <tag> out.action.commande="remotecontrol?command=10"; </tag></item>
+	<item>zero <tag> out.action.commande="remotecontrol?command=11"; </tag></item>
+
+    <item>met T F un <tag> out.action.commande="zap?sRef=1:0:1:2206:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met T F un HD<tag> out.action.commande="zap?sRef=1:0:19:2329:442:1:C00000:0:0:0:"; </tag></item>
+    <item>met France deux <tag> out.action.commande="zap?sRef=1:0:1:2011:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met France deux hd<tag> out.action.commande="zap?sRef=1:0:19:2462:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met France trois <tag> out.action.commande="zap?sRef=1:0:1:2010:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus <tag> out.action.commande="zap?sRef=1:0:1:2009:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus hd <tag> out.action.commande="zap?sRef=1:0:19:2261:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met France cinq <tag> out.action.commande="zap?sRef=1:0:1:2200:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met aime six <tag> out.action.commande="zap?sRef=1:0:1:2216:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met aime six hd <tag> out.action.commande="zap?sRef=1:0:19:245E:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met Arté <tag> out.action.commande="zap?sRef=1:0:1:221C:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met Arté hd <tag> out.action.commande="zap?sRef=1:0:19:2458:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus cinema <tag> out.action.commande="zap?sRef=1:0:1:200B:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus cinema hd <tag> out.action.commande="zap?sRef=1:0:19:2263:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus sport <tag> out.action.commande="zap?sRef=1:0:1:200C:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus sport hd<tag> out.action.commande="zap?sRef=1:0:19:2264:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus serie hd<tag> out.action.commande="zap?sRef=1:0:19:2266:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus family<tag> out.action.commande="zap?sRef=1:0:1:2072:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus family hd<tag> out.action.commande="zap?sRef=1:0:19:2265:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus decalé<tag> out.action.commande="zap?sRef=1:0:1:2071:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met Canal plus decalé hd<tag> out.action.commande="zap?sRef=1:0:19:2262:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus premier <tag> out.action.commande="zap?sRef=1:0:1:200D:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus premier hd <tag> out.action.commande="zap?sRef=1:0:19:245B:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus frisson <tag> out.action.commande="zap?sRef=1:0:1:1FA7:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus frisson hd <tag> out.action.commande="zap?sRef=1:0:19:2267:438:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus émotion <tag> out.action.commande="zap?sRef=1:0:1:1FA6:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus émotion hd <tag> out.action.commande="zap?sRef=1:0:19:2482:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus famiz <tag> out.action.commande="zap?sRef=1:0:1:2401:452:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus club <tag> out.action.commande="zap?sRef=1:0:1:206E:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné plus clasic <tag> out.action.commande="zap?sRef=1:0:1:1FA5:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met O C S max <tag> out.action.commande="zap?sRef=1:0:19:196A:44E:1:C00000:0:0:0:"; </tag></item>
+    <item>met O C S city<tag> out.action.commande="zap?sRef=1:0:19:24BC:43C:1:C00000:0:0:0:"; </tag></item>
+    <item>met O C S choc<tag> out.action.commande="zap?sRef=1:0:19:1F51:42E:1:C00000:0:0:0:"; </tag></item>
+    <item>met O C S geants<tag> out.action.commande="zap?sRef=1:0:19:19E0:444:1:C00000:0:0:0:"; </tag></item>
+    <item>met tcm <tag> out.action.commande="zap?sRef=1:0:1:6F6D:42C:1:C00000:0:0:0:"; </tag></item>
+    <item>met tcm hd <tag> out.action.commande="zap?sRef=1:0:19:26C2:43E:1:C00000:0:0:0:"; </tag></item>
+    <item>met paramount channel <tag> out.action.commande="zap?sRef=1:0:19:19CE:444:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné polar <tag> out.action.commande="zap?sRef=1:0:1:4289:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met ciné fx <tag> out.action.commande="zap?sRef=1:0:1:428A:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met action <tag> out.action.commande="zap?sRef=1:0:1:4286:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met disney ciné magic <tag> out.action.commande="zap?sRef=1:0:1:22CC:45A:1:C00000:0:0:0:"; </tag></item>
+    <item>met disney ciné magic hd <tag> out.action.commande="zap?sRef=1:0:19:24BA:43C:1:C00000:0:0:0:"; </tag></item>
+    <item>met disney ciné magic plus un<tag> out.action.commande="zap?sRef=1:0:1:22CD:45A:1:C00000:0:0:0:"; </tag></item>
+    <item>met serie club <tag> out.action.commande="zap?sRef=1:0:1:2075:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met serie club hd<tag> out.action.commande="zap?sRef=1:0:19:1969:44E:1:C00000:0:0:0:"; </tag></item>
+    <item>met jimmy <tag> out.action.commande="zap?sRef=1:0:1:1FAA:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met 13 éme rue <tag> out.action.commande="zap?sRef=1:0:1:190B:3FA:1:C00000:0:0:0:"; </tag></item>
+    <item>met 13 éme rue hd <tag> out.action.commande="zap?sRef=1:0:19:19C9:444:1:C00000:0:0:0:"; </tag></item>
+    <item>met comedie <tag> out.action.commande="zap?sRef=1:0:1:251E:456:1:C00000:0:0:0:"; </tag></item>
+    <item>met syfy <tag> out.action.commande="zap?sRef=1:0:1:1901:3FA:1:C00000:0:0:0:"; </tag></item>
+    <item>met syfy hd <tag> out.action.commande="zap?sRef=1:0:19:19CB:444:1:C00000:0:0:0:"; </tag></item>
+    <item>met T F 6 <tag> out.action.commande="zap?sRef=1:0:1:251D:456:1:C00000:0:0:0:"; </tag></item>
+    <item>met T F 6 hd <tag> out.action.commande="zap?sRef=1:0:19:1968:44E:1:C00000:0:0:0:"; </tag></item>
+    <item>met mtv france <tag> out.action.commande="zap?sRef=1:0:1:6FEC:42A:1:C00000:0:0:0:"; </tag></item>
+    <item>met mtv hd <tag> out.action.commande="zap?sRef=1:0:19:1F44:42E:1:C00000:0:0:0:"; </tag></item>
+    <item>met june <tag> out.action.commande="zap?sRef=1:0:1:2074:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met mcm <tag> out.action.commande="zap?sRef=1:0:1:1FAB:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met game one <tag> out.action.commande="zap?sRef=1:0:1:6FF7:42A:1:C00000:0:0:0:"; </tag></item>
+    <item>met j one hd <tag> out.action.commande="zap?sRef=1:0:19:26B2:43E:1:C00000:0:0:0:"; </tag></item>
+    <item>met mangas <tag> out.action.commande="zap?sRef=1:0:1:4287:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met a b 1 <tag> out.action.commande="zap?sRef=1:0:1:427D:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met tv breizh <tag> out.action.commande="zap?sRef=1:0:1:206F:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met teva <tag> out.action.commande="zap?sRef=1:0:1:2076:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met teva hd <tag> out.action.commande="zap?sRef=1:0:19:26C5:43E:1:C00000:0:0:0:"; </tag></item>
+    <item>met paris premiére <tag> out.action.commande="zap?sRef=1:0:1:1FAD:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met paris premiére hd <tag> out.action.commande="zap?sRef=1:0:19:2333:442:1:C00000:0:0:0:"; </tag></item>
+    <item>met rtl neuf <tag> out.action.commande="zap?sRef=1:0:1:428B:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met des huit <tag> out.action.commande="zap?sRef=1:0:1:21FD:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met w neuf <tag> out.action.commande="zap?sRef=1:0:1:2204:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met w neuf hd <tag> out.action.commande="zap?sRef=1:0:19:2460:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met tmc <tag> out.action.commande="zap?sRef=1:0:1:2013:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met nt un <tag> out.action.commande="zap?sRef=1:0:1:4290:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met nrj 12 <tag> out.action.commande="zap?sRef=1:0:1:200E:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met france 4 <tag> out.action.commande="zap?sRef=1:0:1:21FF:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met des 17<tag> out.action.commande="zap?sRef=1:0:1:2F8E:454:1:C00000:0:0:0:"; </tag></item>
+    <item>met france zero <tag> out.action.commande="zap?sRef=1:0:1:21FE:44C:1:C00000:0:0:0:"; </tag></item>
+    <item>met numero 23 <tag> out.action.commande="zap?sRef=1:0:1:2136:400:1:C00000:0:0:0:"; </tag></item>
+    <item>met cherie 25 <tag> out.action.commande="zap?sRef=1:0:1:6F73:42C:1:C00000:0:0:0:"; </tag></item>
+    <item>met tv 5 monde <tag> out.action.commande="zap?sRef=1:0:1:1FAE:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met non stop people <tag> out.action.commande="zap?sRef=1:0:19:24BD:43C:1:C00000:0:0:0:"; </tag></item>
+    <item>met cuisine plus <tag> out.action.commande="zap?sRef=1:0:1:2587:458:1:C00000:0:0:0:"; </tag></item>
+    <item>met maison plus <tag> out.action.commande="zap?sRef=1:0:1:23FD:452:1:C00000:0:0:0:"; </tag></item>
+    <item>met vivolta <tag> out.action.commande="zap?sRef=1:0:1:2F68:454:1:C00000:0:0:0:"; </tag></item>
+    <item>met mcm bien étre <tag> out.action.commande="zap?sRef=1:0:1:213C:400:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus <tag> out.action.commande="zap?sRef=1:0:1:2012:430:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus hd <tag> out.action.commande="zap?sRef=1:0:19:2337:442:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus thalassa<tag> out.action.commande="zap?sRef=1:0:1:2138:400:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus thalassa hd <tag> out.action.commande="zap?sRef=1:0:19:1F45:42E:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus ci<tag> out.action.commande="zap?sRef=1:0:1:2588:458:1:C00000:0:0:0:"; </tag></item>
+    <item>met planète plus action et expérience <tag> out.action.commande="zap?sRef=1:0:1:2077:432:1:C00000:0:0:0:"; </tag></item>
+    <item>met discovery <tag> out.action.commande="zap?sRef=1:0:1:258A:458:1:C00000:0:0:0:"; </tag></item>
+    <item>met discovery hd <tag> out.action.commande="zap?sRef=1:0:19:26C1:43E:1:C00000:0:0:0:"; </tag></item>
+    <item>met discovery science <tag> out.action.commande="zap?sRef=1:0:19:24BF:43C:1:C00000:0:0:0:"; </tag></item>
+    <item>met national geo <tag> out.action.commande="zap?sRef=1:0:1:1FAC:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met national geo hd <tag> out.action.commande="zap?sRef=1:0:19:232B:442:1:C00000:0:0:0:"; </tag></item>
+    <item>met national geo wild <tag> out.action.commande="zap?sRef=1:0:19:1973:44E:1:C00000:0:0:0:"; </tag></item>
+    <item>met voyage <tag> out.action.commande="zap?sRef=1:0:1:1FB0:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met voyage hd <tag> out.action.commande="zap?sRef=1:0:19:19CD:444:1:C00000:0:0:0:"; </tag></item>
+    <item>met ushuaia tv <tag> out.action.commande="zap?sRef=1:0:1:1FAF:434:1:C00000:0:0:0:"; </tag></item>
+    <item>met ushuaia tv hd <tag> out.action.commande="zap?sRef=1:0:19:2461:440:1:C00000:0:0:0:"; </tag></item>
+    <item>met histoire <tag> out.action.commande="zap?sRef=1:0:1:2581:458:1:C00000:0:0:0:"; </tag></item>
+    <item>met toute l'histoire <tag> out.action.commande="zap?sRef=1:0:1:4282:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met animaux <tag> out.action.commande="zap?sRef=1:0:1:427E:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met escale <tag> out.action.commande="zap?sRef=1:0:1:4281:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met encyclo <tag> out.action.commande="zap?sRef=1:0:1:427F:446:1:C00000:0:0:0:"; </tag></item>
+    <item>met seasons <tag> out.action.commande="zap?sRef=1:0:1:2521:456:1:C00000:0:0:0:"; </tag></item>
+    <item>met tv8 mont blanc <tag> out.action.commande="zap?sRef=1:0:1:2F67:454:1:C00000:0:0:0:"; </tag></item>
+    <item>met rmc decouverte <tag> out.action.commande="zap?sRef=1:0:1:275F:402:1:C00000:0:0:0:"; </tag></item>
+    <item>met la chaine meteo <tag> out.action.commande="zap?sRef=1:0:1:22C6:45A:1:C00000:0:0:0:"; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+    <item> <tag> out.action.commande="zap?sRef= "; </tag></item>
+
+
+
+
+
+
+
+    <!-- Exemple de "Macro" -->
+    <item>met la télé sur la freebox <tag> out.action.commande="Source,WAIT,CursorDown,WAIT,Confirm"; </tag></item>
+    </one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/E2Remote";</tag>
+  </rule>
+</grammar>

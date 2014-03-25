@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "E2Remote"  : {
+      "description": "Ce module permet de piloter les démodulateurs satellites Enigma 2",
+      "version"    : "1.0",
+      "tvip"       : "",
+      "reponse"    : "true"
+    }
+  }
+}

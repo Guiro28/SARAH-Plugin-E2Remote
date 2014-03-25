@@ -1,0 +1,12 @@
+
+.plugin-gridster.E2Remote .front {
+  background: #000000 url('img/logo.png') center 34px;
+  background-size:   135px 87px;
+  background-repeat: no-repeat;
+}
+
+.plugin-gridster.E2Remote .back {
+  background: #000000 url('img/tools.png') center 34px;
+  background-size:   135px 87px;
+  background-repeat: no-repeat;
+}
